@@ -3,8 +3,8 @@ jQuery(document).ready(function () {
 		timer = setInterval(function() {
 
 			degress++;
-			jQuery('div.background-middle').css('background','linear-gradient('+ degress +'deg, #8c2b2b, #9bc5c3')
+			jQuery('div.background-middle').css('background','linear-gradient('+ degress +'deg, #333333, #E6E6E6')
 
-		}, 10000/360);
+		}, 30000/360);
 
 });
